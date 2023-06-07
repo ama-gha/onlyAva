@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: red;
+    background-color: white;
+}
+
+body {
+    font-family: 'Kosugi Maru', sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-image: url(images/onlyAvaBack.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.normal_text {
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.side_air {
+    width: auto;
+    height: 100vh;
+    padding: 0 25% 0;
+}
+
+.main_display_air {
+    width: auto;
+    height: 200px;
+    padding: 10% 20% 0;
+    min-width: 360px;
+}
+
+.menubar {
+    height: 800px;
+    width: 138px;
+    position: fixed;
+}
+
+.main_logo {
+    margin: 20px;
+}
+
+.page_buttons {
+    width: 138px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+.home_page_button,
+.info_page_button,
+.sns_page_button {
+    padding: 10px;
+    margin: 8px;
+    font-size: 17px;
+    display: block;
+    transition-duration: 0.1s;
+}
+
+.home_page_button:hover,
+.info_page_button:hover,
+.sns_page_button:hover {
+    background-color: white;
+    color: red;
+    transition-duration: 0.1s;
+}
+
+#home_icon {
+    color: white;
+    font-size: 50px;
+}
