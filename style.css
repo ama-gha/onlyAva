@@ -41,14 +41,14 @@
             width: auto;
             height: 100vh;
             padding: 0 25% 0;
+            text-align: center;
         }
         
         .main_display_air {
             width: auto;
-            height: 200px;
+            height: 100%;
             padding: 10% 15% 0;
             min-width: 360px;
-            text-align: center;
         }
         
         .menubar {
